@@ -17,9 +17,7 @@
   width: 195px;
   margin: 15px;
   height: 60px;
-
 }
-
 
 .ball {
   background-color: black;
@@ -32,7 +30,6 @@
   border-radius: 25px;
 }
 
-
 .hole {
   background-color: rgb(62, 85, 107);
   /* box-shadow: 0 10px 10px 0px; */
@@ -42,4 +39,13 @@
   height: 50px;
   width: 50px;
   border-radius: 30px;
+}
+.start {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-timer {
+  margin-left: 50px;
 }
