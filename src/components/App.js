@@ -58,7 +58,7 @@ class Timer extends React.Component {
             style={{ left: this.state.x + "px", top: this.state.y + "px" }}
           ></div>
           <div className="hole"></div>
-          <div className="heading-timer">Time:{this.state.time}</div>
+          <div className="heading-timer">{this.state.time}</div>
         </>
       );
     } else {
