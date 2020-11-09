@@ -66,6 +66,7 @@ class Timer extends React.Component {
         <>
           <div className="ball" style={{ left: "0px", right: "0px" }}></div>
           <div className="hole"></div>
+          <div className="heading-timer"></div>
           <button className="start" onClick={this.handleStart}>
             start{" "}
           </button>
