@@ -18,6 +18,9 @@ class Timer extends React.Component {
   }
 
   handleMovement(event) {
+    if (this.state.x === 250 && this.state.y === 250) {
+      return;
+    }
     const keyPressed = event.key;
     if (keyPressed === "ArrowRight") {
       this.setState({ x: this.state.x + 5 });
